@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html {
+	height:100%;
+}
+body {
+	background: #F5F5F5;
+	margin:0px;
+}
+
+ul.items {
+	margin:0px;
+	padding:0px;
+	list-style: none;
+
+}
+
+.items li {
+	margin:10px;
+	padding:10px;
+	padding-bottom:5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #F5FFF5; /* Old browsers */
+	border:1px solid #DEDEDE;
+}
+
+.items li.inactive {
+	background-color:#FFF0F5;
+	text-decoration:line-through;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #FFF5F7; /* Old browsers */
+	font-style:italic;
+}
+
+.items li label {
+	font-weight: bold;
+	color:#163D70;
+}
+
+.date {	
+	font-style:italic;
+	font-size:12px;
+	font-weight: normal;
+	color:#757575;
+}
+
+
+ul.groups {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.groups li {
+	border-bottom:1px solid #E8E8E8;
+	padding:5px;
+}
+
+.groups li a {
+	text-decoration: none;
+	padding-left:5px;
+	display:block;
+}
+
+
+.groups li.selected a {
+	color:#06355C;
+}
+
+
+
+
+
+
+
+
